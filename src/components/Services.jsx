@@ -13,7 +13,7 @@ export default function Services() {
             lg={3}
             className="s-1 serv d-flex align-items-center text-center justify-content-center"
           >
-            <NavLink className="fonted text-center text-decoration-none fs-4 serv-a">
+            <NavLink className="fonted text-muted text-center text-decoration-none fs-4 serv-a">
               Weddings
             </NavLink>
           </Col>
@@ -22,7 +22,7 @@ export default function Services() {
             lg={3}
             className="s-2 serv d-flex align-items-center text-center justify-content-center"
           >
-            <NavLink className="fonted text-center text-decoration-none fs-4 serv-a">
+            <NavLink className="fonted text-muted text-center text-decoration-none fs-4 serv-a">
               Parties
             </NavLink>
           </Col>
@@ -31,13 +31,12 @@ export default function Services() {
             lg={3}
             className="s-3 serv d-flex align-items-center text-center justify-content-center"
           >
-            <NavLink className="fonted text-center text-decoration-none fs-4 serv-a">
+            <NavLink className="fonted text-muted text-center text-decoration-none fs-4 serv-a">
               Arrangements
             </NavLink>
           </Col>
         </Row>
       </Container>
-      <div className="spacer" />
     </>
   );
 }

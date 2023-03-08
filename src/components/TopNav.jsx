@@ -8,13 +8,16 @@ import { NavLink } from "react-router-dom";
 function TopNav() {
   return (
     <Navbar
+      sticky="top"
       variant="dark"
       expand="lg"
       className="background-none nav border-none"
     >
       <Container>
         <Navbar.Brand href="#home">
-          <h1 className="fonted text-light title">Kristens Creations</h1>
+          <h1 className="fonted text-light title sticky-top">
+            Kristens Creations
+          </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

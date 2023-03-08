@@ -96,6 +96,19 @@ div.dropdown-menu.show {
     color: black;
   }
 
+  .contact-button {
+    background-color: white;
+    border: 1px solid #e6c7b9;
+    padding: 10px;
+    text-decoration: none;
+    color: #e6c7b9;
+  }
+
+  .contact-button:hover {
+    background-color: #e6c7b9;
+    color: white;
+  }
+
 @media (max-width: 500px) {
     .splash {
         background-size: cover;
@@ -121,7 +134,11 @@ div.dropdown-menu.show {
         width: 85vw;
     }
 
-    #basic-navbar-nav {
+    .contact-button {
+        width: 40vw;
+    }
+
+    /* #basic-navbar-nav {
         background-color: white;
         padding: 1em;
         border-radius: 15px;
@@ -129,7 +146,7 @@ div.dropdown-menu.show {
 
     .navlink {
         color: black;
-    }
+    } */
 
 
 
