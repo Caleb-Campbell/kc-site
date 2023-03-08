@@ -141,6 +141,15 @@ div.dropdown-menu.show {
     color: #e6c7b9;
   }
 
+  .contact-splash {
+    background-image: url('./assets/contact_splash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: .8;
+    height: 40vh;
+  }
+
 
 
 @media (max-width: 500px) {
