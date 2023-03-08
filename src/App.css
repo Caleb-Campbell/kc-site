@@ -113,6 +113,10 @@ div.dropdown-menu.show {
     height: 15vh;
   }
 
+  .contact-form {
+    width: 50%;
+  }
+
   
 
   .navlink-dark {
@@ -127,6 +131,12 @@ div.dropdown-menu.show {
   .metal {
     font-family: 'Metal', cursive;
     text-transform: lowercase;
+    text-decoration: none;
+    color: black;
+  }
+
+  .cap-metal {
+    font-family: 'Metal', cursive;
     text-decoration: none;
     color: black;
   }
@@ -193,6 +203,10 @@ div.dropdown-menu.show {
       .social-photo {
     height: 20vh;
     margin-bottom: 2em;
+  }
+
+  .contact-form {
+    width: 90%;
   }
 
 
