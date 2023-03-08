@@ -17,12 +17,12 @@ export default function Home() {
       />
       <Services />
       <Stack className="fonted text-center quote mx-auto">
-        <h2 className="mb-2 fs-3">Let's get this party started...</h2>
-        <NavLink className="fonted contact-button mt-3 mx-auto" to={"/contact"}>
+        <h2 className="mb-0 fs-3">lets make your dream event a reality</h2>
+        <NavLink className="fonted contact-button mt-4 mx-auto" to={"/contact"}>
           Contact Me
         </NavLink>
-        <SocialPhotos />
       </Stack>
+      <SocialPhotos />
     </>
   );
 }

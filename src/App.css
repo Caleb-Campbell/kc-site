@@ -109,6 +109,40 @@ div.dropdown-menu.show {
     color: white;
   }
 
+  .social-photo {
+    height: 15vh;
+  }
+
+  
+
+  .navlink-dark {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navlink-dark:hover {
+    color: gray;
+  }
+
+  .metal {
+    font-family: 'Metal', cursive;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: black;
+  }
+
+  
+  .foot {
+    background-color: #edebeb;
+    padding: 3em;
+  }
+
+  .pinky {
+    color: #e6c7b9;
+  }
+
+
+
 @media (max-width: 500px) {
     .splash {
         background-size: cover;
@@ -138,6 +172,21 @@ div.dropdown-menu.show {
         width: 40vw;
     }
 
+    .social-col {
+        margin-top: 5em;
+    }
+
+    row {
+        height: 80vh;
+    }
+
+      .social-photo {
+    height: 20vh;
+    margin-bottom: 2em;
+  }
+
+
+  
     /* #basic-navbar-nav {
         background-color: white;
         padding: 1em;
