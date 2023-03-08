@@ -1,39 +1,82 @@
+import { DropdownButton } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-router-dom";
 
-function BasicExample() {
+function TopNav() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar
+      variant="dark"
+      expand="lg"
+      className="background-none nav border-none"
+    >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <h1 className="fonted text-light title">Kristens Creations</h1>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="w-100 justify-content-end mt-3">
             <Nav.Link>
-              <NavLink to="/">Home</NavLink>
+              <NavLink className=" text-decoration-none fonted navlink" to="/">
+                Home
+              </NavLink>
             </Nav.Link>
-            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
+            <NavDropdown
+              title={<span className="fonted">Services</span>}
+              className="fonted navlink text-light drop"
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item>
-                <NavLink to="/weddings">Weddings</NavLink>
+                <NavLink
+                  className=" text-decoration-none fonted navlink"
+                  to="/weddings"
+                >
+                  Weddings
+                </NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <NavLink to="/parties">Parties</NavLink>
+                <NavLink
+                  className=" text-decoration-none fonted navlink"
+                  to="/parties"
+                >
+                  Parties
+                </NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <NavLink to="/arrangements">Arrangements</NavLink>
+                <NavLink
+                  className=" text-decoration-none fonted navlink"
+                  to="/arrangements"
+                >
+                  Arrangements
+                </NavLink>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>
-              <NavLink to="/about">About</NavLink>
+              <NavLink
+                className=" text-decoration-none fonted navlink"
+                to="/rentals"
+              >
+                Rentals
+              </NavLink>
             </Nav.Link>
             <Nav.Link>
-              <NavLink to="/rentals">Rentals</NavLink>
+              <NavLink
+                className=" text-decoration-none fonted navlink"
+                to="/about"
+              >
+                About
+              </NavLink>
             </Nav.Link>
             <Nav.Link>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink
+                className=" text-decoration-none fonted navlink"
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -42,4 +85,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default TopNav;

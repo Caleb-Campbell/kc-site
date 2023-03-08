@@ -1,0 +1,136 @@
+.fonted {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+
+.navlink {
+    font-size: 1.3em;
+}
+
+.quote {
+    padding: 4vh;
+    width: 80vw;
+    border-top: 2px solid #edebeb;
+    border-bottom: 2px solid #edebeb;
+    margin: 5em;
+}
+
+.title {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+.spacer {
+    height: 30vh;
+}
+
+.s-1 {
+    background-image: url('https://images.unsplash.com/photo-1637616919953-5943e10bd4bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
+}
+
+.s-2 {
+    background-image: url("https://images.unsplash.com/photo-1640506054499-2b040ca19023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=531&q=80");
+    background-position: center;
+}
+
+.s-3 {
+    background-image: url("https://images.unsplash.com/photo-1608153917926-c467b4e23b6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+}
+
+.serv {
+    height: 40vh;
+    width: 30vh;
+    background-size: cover;
+}
+
+ .serv:hover, .serv-a   {
+    transition: .3s ease;
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6);
+    scale: 1.03;
+    color: white;
+}
+
+.serv-a {
+    color: black;
+}
+
+.serv-a:hover {
+    color: white;
+}
+
+.drop  {
+    color: white;
+}
+
+div.dropdown-menu.show {
+    background-color: rgb(1,1,1,0); 
+    border: none;
+  }
+  a.dropdown-item {
+    color: #ffffff;  
+  }
+
+.no-border {
+    border: none;
+}
+
+.splash {
+    background-image: url('./assets/splash.jpg');
+    background-size: cover;
+    height: 90vh;
+    opacity: .8;
+}
+
+.navbar-header {
+    background-color: purple;
+  }
+
+  .navlink {
+    color: white;
+  }
+  .navlink:hover {
+    color: black;
+  }
+
+@media (max-width: 500px) {
+    .splash {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+
+    .cont-serv {
+        width: 95vw;
+        padding: 1em;
+    }
+
+    .serv {
+        margin-top: 2em;
+        margin-bottom: 2em
+    }
+    
+    .title {
+        left: 10px;
+    }
+
+    .quote {
+        width: 85vw;
+    }
+
+    #basic-navbar-nav {
+        background-color: white;
+        padding: 1em;
+        border-radius: 15px;
+    }
+
+    .navlink {
+        color: black;
+    }
+
+
+
+}
