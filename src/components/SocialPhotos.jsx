@@ -24,7 +24,7 @@ export default function SocialPhotos() {
         </a>
       </h3>
       <Container fluid="sm" className="w-100">
-        <Row className="justify-content-between align-items-around row">
+        <Row className="justify-content-between align-items-around row mx-auto">
           {photos.map((photo, index) => {
             return (
               <Col key={index} lg={2} xs={6} className="social-col">
