@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import {
   Col,
   Container,
@@ -28,12 +29,41 @@ export default function Contact() {
     }
   };
 
+  const submit = (e) => {
+    e.preventDefault();
+    const data = {
+      name: name,
+      email: email,
+      event_type: eventType,
+      info: box,
+    };
+    sendToOwner(data);
+  };
+
+  const sendToOwner = (data) => {
+    emailjs
+      .sendForm(
+        "service_8scisak",
+        "template_ymf3wpc",
+        data,
+        "D4OnsP9iMECXvVLR8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <div className="contact-splash">
         <TopNav />
       </div>
-      <Form className="p-3 contact-form mx-auto">
+      <Form className="p-3 contact-form mx-auto" onSubmit={submit}>
         <h2 className="fonted text-center fs-3 my-5">Complete form below</h2>
         <Stack gap={4}>
           <FormLabel className="fonted">
