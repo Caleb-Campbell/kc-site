@@ -157,7 +157,8 @@ div.dropdown-menu.show {
 
     .serv {
         margin-top: 2em;
-        margin-bottom: 2em
+        margin-bottom: 2em;
+        background-position: center;
     }
     
     .title {
