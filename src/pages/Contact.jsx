@@ -29,6 +29,8 @@ export default function Contact() {
     }
   };
 
+  // https://stackoverflow.com/questions/71356056/the-3rd-parameter-is-expected-to-be-the-html-form-element-or-the-style-selector
+
   const submit = (e) => {
     e.preventDefault();
     const data = {

@@ -41,7 +41,7 @@
 }
 
 .serv {
-    height: 40vh;
+    height: 500px;
     width: 30vh;
     background-size: cover;
 }
@@ -178,6 +178,7 @@ div.dropdown-menu.show {
         margin-top: 2em;
         margin-bottom: 2em;
         background-position: center;
+        height: 400px;
     }
     
     .title {
