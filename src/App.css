@@ -128,9 +128,22 @@ div.dropdown-menu.show {
     height: 600px;
     background-size: cover;
     background-position: center;
-    filter: grayscale(50%);
+    /* filter: grayscale(50%); */
     
   }
+
+  .service-quote-stack {
+    width: 75%;
+    border-top: 2px solid #e4dfdc;
+    border-bottom: 2px solid #e4dfdc;
+  }
+
+  .service-quote-title {
+    width: 10em;
+    background-color: white;
+    transform: translateY(-18px);
+  }
+
 
   .navlink-dark {
     color: black;
@@ -244,6 +257,10 @@ div.dropdown-menu.show {
   }
 
   .contact-form {
+    width: 90%;
+  }
+
+  .service-quote-stack {
     width: 90%;
   }
 

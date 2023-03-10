@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceQuote from "../components/ServiceQuote";
 import SocialPhotos from "../components/SocialPhotos";
 import TopNav from "../components/TopNav";
 export default function Portfolio() {
@@ -9,6 +10,9 @@ export default function Portfolio() {
           <TopNav />
         </div>
       </div>
+      <div className="spacer" />
+      <ServiceQuote />
+      <div className="spacer" />
       <div className="spacer" />
       <SocialPhotos bordered />
     </>
