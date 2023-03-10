@@ -23,8 +23,14 @@
     top: 15px;
 }
 
+.divider {
+  border-top: 2px solid #edebeb;
+  width: 80%;
+  margin-bottom: 2.5em;
+}
+
 .spacer {
-    height: 30vh;
+    height:100px;
 }
 
 .s-1 {
@@ -110,7 +116,7 @@ div.dropdown-menu.show {
   }
 
   .social-photo {
-    height: 15vh;
+    height: 200px;
   }
 
   .contact-form {
@@ -157,9 +163,33 @@ div.dropdown-menu.show {
     background-position: center;
     width: 100%;
     opacity: .8;
-    height: 40vh;
+    height: 600px;
   }
 
+  .fonted-lower {
+    font-family: 'Playfair Display', serif;
+
+  }
+
+  .about-title {
+    font-size: 3em;
+  }
+
+  .about-splash {
+    height: 100px;
+    /* background-image: url('../src/assets/logo.png'); */
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .about-wrap {
+    background-color: #e4dfdc;
+  }
+
+  .margin-top {
+    margin-top: 8em;
+  }
 
 
 @media (max-width: 500px) {
@@ -210,18 +240,12 @@ div.dropdown-menu.show {
     width: 90%;
   }
 
+}
 
-  
-    /* #basic-navbar-nav {
-        background-color: white;
-        padding: 1em;
-        border-radius: 15px;
-    }
-
-    .navlink {
-        color: black;
-    } */
-
-
+@media (max-width: 385px) {
+  .title {
+    font-size: 1.1em;
+    
+  }
 
 }
