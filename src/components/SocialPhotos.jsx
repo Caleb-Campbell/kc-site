@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-export default function SocialPhotos() {
+export default function SocialPhotos({ bordered }) {
   const photos = [
     "https://i.ibb.co/fSPrjqx/c.jpg",
     "https://i.ibb.co/qp7N6CZ/d.jpg",
@@ -14,6 +14,8 @@ export default function SocialPhotos() {
 
   return (
     <>
+      {bordered && <div className="divider mx-auto" />}
+
       <h3 className="fonted text-center mb-5">
         <a
           href="https://www.instagram.com/triden50/"

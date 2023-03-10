@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Rentals from "./pages/Rentals";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import SocialPhotos from "./components/SocialPhotos";
 
 function App() {
   return (

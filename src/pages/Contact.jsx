@@ -118,7 +118,7 @@ export default function Contact() {
         </Stack>
       </Form>
       <div className="spacer" />
-      <SocialPhotos />
+      <SocialPhotos bordered />
     </>
   );
 }
