@@ -123,7 +123,14 @@ div.dropdown-menu.show {
     width: 50%;
   }
 
-  
+  .wedding-splash {
+    background-image: url('https://plus.unsplash.com/premium_photo-1675003663200-6d03ddc3aba4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+    
+  }
 
   .navlink-dark {
     color: black;
