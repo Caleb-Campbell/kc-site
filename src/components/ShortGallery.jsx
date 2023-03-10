@@ -1,7 +1,7 @@
 import React from "react";
-import { Col, Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
-export default function ShortGallery([photos]) {
+export default function ShortGallery({ photos, alt }) {
   return (
     <>
       <Container>
@@ -9,7 +9,7 @@ export default function ShortGallery([photos]) {
           {photos.map((photo, index) => {
             return (
               <Col key={index}>
-                <img src={photo} alt="wedding photo" />
+                <img src={photo} alt={alt} />
               </Col>
             );
           })}

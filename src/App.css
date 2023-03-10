@@ -123,13 +123,26 @@ div.dropdown-menu.show {
     width: 50%;
   }
 
+  .bg-cream {
+    background-color: #e4dfdc;
+  }
+
+
+
   .wedding-splash {
-    background-image: url('https://plus.unsplash.com/premium_photo-1675003663200-6d03ddc3aba4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-    height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1664853021355-6a5d73f6198f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    opacity: .8;
     /* filter: grayscale(50%); */
-    
+  }
+
+
+
+  .weddings-wrap {
+    background-color: #e4dfdc;
+
   }
 
   .service-quote-stack {
