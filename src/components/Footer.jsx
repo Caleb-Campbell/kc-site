@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
           </Col>
           <Col xs={12}>
-            <p className="text-end metal">
+            <p className="text-end metal accol">
               Website by{" "}
               <a
                 className="metal"

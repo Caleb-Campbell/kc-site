@@ -50,6 +50,7 @@ export default function Portfolio() {
           <h3 className="text-center fs-1">Weddings</h3>
         </div>
       </div>
+      <div className="spacer" />
       <ServiceQuote text={weddingsText} title={"What to Expect"} />
       <div className="spacer " />
       <div className="spacer " />

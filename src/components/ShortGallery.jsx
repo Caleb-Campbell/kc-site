@@ -9,7 +9,7 @@ export default function ShortGallery({ photos, alt }) {
           {photos.map((photo, index) => {
             return (
               <Col key={index}>
-                <img src={photo} alt={alt} />
+                <img src={photo} alt={alt} className="w-100" />
               </Col>
             );
           })}
