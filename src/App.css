@@ -33,19 +33,6 @@
     height:100px;
 }
 
-.s-1 {
-    background-image: url('https://images.unsplash.com/photo-1637616919953-5943e10bd4bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
-}
-
-.s-2 {
-    background-image: url("https://images.unsplash.com/photo-1640506054499-2b040ca19023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=531&q=80");
-    background-position: center;
-}
-
-.s-3 {
-    background-image: url("https://images.unsplash.com/photo-1608153917926-c467b4e23b6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
-}
-
 .serv {
     height: 500px;
     width: 30vh;
@@ -127,18 +114,26 @@ div.dropdown-menu.show {
     background-color: #e4dfdc;
   }
 
-
-
-  .wedding-splash {
-    background-image: url('https://images.unsplash.com/photo-1664853021355-6a5d73f6198f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  .wedding-splash, .parties-splash, .arrangements-splash {
     height: 400px;
     background-size: cover;
-    background-position: right;
     opacity: .8;
-    /* filter: grayscale(50%); */
   }
 
+  .wedding-splash {
+    background-image: url('https://images.unsplash.com/photo-1664853021355-6a5d73f6198f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); 
+    background-position: right;
+  }
 
+  .arrangements-splash {
+    background-image: url("https://images.pexels.com/photos/6913124/pexels-photo-6913124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+  }
+
+  .parties-splash {
+    background-image: url('./assets/parties_spash.jpg');
+    background-position: -0px -550px;
+  }
 
   .weddings-wrap {
     background-color: #e4dfdc;

@@ -1,49 +1,48 @@
-import React from "react";
-import { Container, Stack, Col, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/logo.png";
 
-export default function Footer() {
+function Footer() {
   return (
-    <div className="text-center foot">
-      <Container className="">
-        <Row>
-          <Col xs={12} lg={3}>
-            <Stack>
-              <a href="tel:+1-509-554-1793" className="metal">
-                {"("}509{")"} 554-1793
-              </a>
-              <a className="metal">kristen@gmail.com</a>
-            </Stack>
+    <footer className="bg-light">
+      <Container className="py-3">
+        <Row className="align-items-center">
+          <Col md={4} className="text-center text-md-start">
+            <h5 className="metal fs-4">Kristens Creations LLC</h5>
           </Col>
-          <Col xs={12} lg={6}>
-            <img className="w-25" src={logo} />
+          <Col md={4} className="text-center">
+            <img src={logo} alt="Company Logo" height="300" />
           </Col>
-          <Col xs={12} lg={3}>
-            <Stack>
-              <a className="metal">Instagram</a>
-              <a className="metal">Facebook</a>
-            </Stack>
+          <Col md={4} className="text-center text-md-end">
+            <a href="mailto:info@company.com" className="me-3">
+              info@company.com
+            </a>
+            <a href="tel:+1234567890">(123) 456-7890</a>
           </Col>
         </Row>
-        <Row xs={12}>
-          <Col xs={12}>
-            <p className="metal">
-              Copyright © 2023 — Kristens Creations, All Rights Reserved
+        <Row className="mt-3 mb-2">
+          <Col md={4} className="text-center text-md-start">
+            <p className="metal fs-4">
+              &copy; Kristens Creations {new Date().getFullYear()}
             </p>
           </Col>
-          <Col xs={12}>
-            <p className="text-end metal accol">
-              Website by{" "}
-              <a
-                className="metal"
-                href="https://www.linkedin.com/in/calebcampbell-/"
-              >
-                Caleb Campbell
-              </a>
-            </p>
+          <Col md={4} className="text-center">
+            <a href="#">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="#">
+              <i className="bi bi-twitter"></i>
+            </a>
+            <a href="#">
+              <i className="bi bi-instagram"></i>
+            </a>
+          </Col>
+          <Col md={4} className="text-center text-md-end">
+            <p className="metal fs-4">Made by Caleb Campbell</p>
           </Col>
         </Row>
       </Container>
-    </div>
+    </footer>
   );
 }
+
+export default Footer;
